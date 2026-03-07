@@ -20,11 +20,33 @@ import numpy as np
 # print(matrix)
 # print(matrix.shape)
 
-data = [5,10,15,20]
+# data = [5,10,15,20]
 
-nparr = np.array(data)
+# nparr = np.array(data)
 
-print(nparr)
-print(nparr * 3)
-print(np.mean(nparr))
+# print(nparr)
+# print(nparr * 3)
+# print(np.mean(nparr))
+
+#feature normalization
+# features = np.array([10,20,30,40])
+
+# normalized = features / np.mean(features)
+
+# print(normalized)
+
+# numpy broadcasting
+
+# arr = np.array([10,20,30,40])
+
+# print(arr + 5)
+
+arr = [[1,2],
+ [3,4],
+ [5,6]]
+
+matrix = np.array(arr)
+print(matrix)
+print(matrix * 2)
+print(matrix.shape)
 
