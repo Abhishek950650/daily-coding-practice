@@ -56,7 +56,7 @@ df = pd.DataFrame(data, columns=['Name', 'Department', 'Salary']) # create dataf
 
 
 
-# print(df.groupby('Department')['Salary'].agg(['mean','max','min','count']))
+print(df.groupby('Department')['Salary'].agg(['mean','max','min','count']))
 
 
 
